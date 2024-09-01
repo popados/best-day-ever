@@ -108,36 +108,41 @@ a {
     left: 0%;
     z-index: 1;
     scale: 0.5;
-    transform: translate(0%, -50%);
+    transform: translate(0px, 0px);
   }
   10% {
     left: 0%;
     z-index: 1;
     scale: 0.5;
-    transform: translate(0%, 0%);
+    transform: translate(25px, -110px);
   }
-  25% {
+  /* 25% {
     scale: 0.3;
     transform: translate(-100%, -50%);
     z-index: -3;
   }
   50% {
-    left: 85%;
+    left: 90%;
     z-index: 3;
   }
   50.001% {
     z-index: 3;
-  }
-  75% {
+  } */
+  25% {
     scale: 11;
     z-index: 3;
-    transform: translate(0%, -50%);
+    transform: translate(30px, -10px);
+  }
+  50% {
+    scale: 11;
+    z-index: 3;
+    transform: translate(40px, -19px);
   }
   100% {
     left: 0%;
     scale: 0.3;
-    transform: translate(0%, -50%);
-    z-index: 3;
+    transform: translate(10px, -50%);
+    z-index: -3;
     scale: 0.52;
   }
 }
